@@ -46,17 +46,57 @@
 
       <section id="main_content">
         <h3>
-<a id="welcome-to-my-blog" class="anchor" href="#welcome-to-my-blog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to my blog!</h3>
+          <a id="welcome-to-my-blog" class="anchor" href="#welcome-to-my-blog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to my blog!
+        </h3>
 
-<p>Almost nothing here but some songs sung by myself:) You can see my codes in <a href="https://github.com/morningmoni">my homepage</a> .But only a little up there~</p>
+        <p>There are some of my work below.You can see the codes in <a href="https://github.com/morningmoni">my homepage</a> .But only a little up there~</p>
 
-<h3>
-<a id="Learning..." class="anchor" href="#Learning..." aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning...</h3>
+        <h3>
+          <a id="Learning..." class="anchor" href="#Learning..." aria-hidden="true"><span class="octicon octicon-link"></span></a>Learning&Practicing ...
+        </h3>
 
-<p>HTML,CSS,JS,Jquery.</p>
-<p>C++(OpenGL),Java(Android(OpenGLES)).</p>
-<p>LabView.</p>
-<p>Python(flask,opencv,beautifulsoup,lucene,tkinter).</p>
+        <p>Web(HTML,CSS,Jquery.Flask.MySQL)</p>
+        <p>C++(OpenGL),Java(Android(OpenGLES))</p>
+        <p>LabView</p>
+        <p>Python(opencv,beautifulsoup,lucene,tkinter)</p>
+        <p>--------------------------------------------------------------</p>
+        <p>PS,PR&AE(little)</p>
+        <p>Piano(sometimes),violin(very long time ago),singing(anytime...)</p>
+        <p>Physical exercise</p>
+
+        <h3>
+           <a  class="anchor" href="#welcome-to-my-blog" aria-hidden="true"><span class="octicon octicon-link"></span></a>Some Of My Work...
+        </h3>
+        <p>A game about cell-escape using OpenGL(about 1000 lines).The painter is one of my classmates.COOL!Isn't it?</p>
+        <p><img src="static/1.png"></p>
+        <p><img src="static/2.png"></p>
+        <p><img src="static/3.png"></p>
+
+        <p>A game on android using OpenGLES.You have to avoid the obstacles to gain scores.</p>
+        <p><img src="static/4.png"></p>
+        <p><img src="static/5.png"></p>
+
+        <p>My first game written when I knew little about C++.The "warrior" had a trip through my campus.</p>
+        <p><img src="static/firstC.png"></p>
+
+        <p>Some pictures edited by PS</p>
+        <p><img src="static/6.gif"></p>
+        <p><img src="static/7.jpg"></p>
+        <p><img src="static/8.jpg"></p>
+        <p><img src="static/9.gif"></p>
+        <p><img src="static/10.jpg"></p>
+        <p><img src="static/11.gif"></p>
+        <p><img src="static/12.jpg"></p>
+        <p><img src="static/13.gif"></p>
+        <p><img src="static/14.jpg"></p>
+        <p><img src="static/15.gif"></p>
+
+        <p>There are others like: </p>
+        <p>Coversearch which can search the cover of an album and give you the songs in it.</p>
+        <p>A crawler that crawls tongqu and JWC.Contact me if you need this.</p>
+        <p>A simple Chinese segmentation project written in python.</p>
+
+
       </section>
 
       <footer>
@@ -72,12 +112,35 @@
       </footer>
 
     </div>
-    <div style="position:relative;left:40px;bottom:350px;">
+    <div style="position:fixed;left:49px;bottom:350px;">
         <object type="application/x-shockwave-flash" data="flashdir/dewplayer-playlist.swf" width="240" height="200" id="dewplayerpls" name="dewplayerpls"> 
         <param name="movie" value="flashdir/dewplayer-playlist.swf" /> 
         <param name="flashvars" value="xml=flashdir/playlist.xml" /> 
         </object>
     </div>
-
+  <a href="#" id="top">top</a>
   </body>
 </html>
+
+<script type="text/javascript">
+$(function(){
+
+    $(window).scroll(function(){ 
+    var scrollt = document.documentElement.scrollTop + document.body.scrollTop; 
+    if( scrollt >200 ){  
+    $("#top").fadeIn(400);   
+      }
+    else{      
+    $("#top").stop().fadeOut(400);   
+      }
+
+    });
+
+    $("#top").click(function(){ 
+
+    $("html,body").animate({scrollTop:"0px"},200);
+
+      });
+
+    });
+</script>
