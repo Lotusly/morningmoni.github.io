@@ -1,3 +1,19 @@
 @import url("screen.css");
 @import url("non-screen.css") handheld;
 @import url("non-screen.css") only screen and (max-device-width:640px);
+
+#top { 
+display:block;  
+color: white;
+width:40px; 
+height:25px;
+position:fixed;  
+bottom:50px;  
+right:40px; 
+border-radius:10px 10px 10px 10px;   
+text-decoration:none;  
+text-align:center;
+display:none;  
+background-color:purple; 
+opacity:0.6;    
+}
