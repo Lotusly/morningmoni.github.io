@@ -7,6 +7,30 @@
     <image>covers/tracklist.jpg</image>
 
     <trackList>
+	
+	<track>
+          <location>flashdir/mp3/secret fast.mp3</location>
+          <creator>Bedrich Smetana</creator>
+          <album>Má Vlast</album>
+          <title>secret</title>
+          <annotation>I love this song</annotation>
+          <duration>32000</duration>
+          <image>covers/smetana.jpg</image>
+          <info></info>
+          <link>http://fr.wikipedia.org/wiki/M%C3%A1_Vlast_(Smetana)</link>
+        </track>
+
+	<track>
+          <location>flashdir/mp3/星空.mp3</location>
+          <creator>Bedrich Smetana</creator>
+          <album>Má Vlast</album>
+          <title>星空</title>
+          <annotation>I love this song</annotation>
+          <duration>32000</duration>
+          <image>covers/smetana.jpg</image>
+          <info></info>
+          <link>http://fr.wikipedia.org/wiki/M%C3%A1_Vlast_(Smetana)</link>
+        </track>
 
         <track>
           <location>flashdir/mp3/1.mp3</location>
